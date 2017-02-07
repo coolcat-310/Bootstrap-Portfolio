@@ -16,6 +16,14 @@ h3{
     border-bottom: solid 2px #666;
     margin: 10px 30px 10px 15px;
 }
+aside {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    float: left;
+    margin-left: 17px;
+    margin-right: 3px;
+}
 
 .btn-primary{
     background-color: #4aaaa5;
@@ -26,10 +34,18 @@ h3{
 .footer {
     position: absolute;
     bottom: 0;
+    right:0;
     width: 100%;
     height: 60px;
     text-align: center;
     background-color: #666;
+}
+
+.media-object{
+    margin: 10px;
+}
+.media-body{
+    padding-right: 10px;
 }
 
 
@@ -40,7 +56,7 @@ h3{
 }
 
 .col-md-8{
-    border:solid 1px black;
+    border:solid 1px #cccccc;
     background-color: white;
 }
 
@@ -48,14 +64,31 @@ h3{
     background-color: white;
 }
 .space{
-    margin-left: 10px;
     background-color: white;
-    border:solid 1px black;
+    border:solid 1px #cccccc;
+
+}
+.colspace{
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 
-#github{
-
-
+.github{
+    margin: 2px 0 10px 0;
 }
 
+.linkedin{
+    margin: 0 0 10px 0;
+}
+.stackOverflow{
+    margin: 2px 0 10px 0;
+}
+
+.makespace{
+    padding: 10px 0 10px 0 ;
+}
+#sloth{
+    float: left;
+    background-image: url("../images/sloth.jpg");
+}
