@@ -69,6 +69,7 @@ aside {
     background-color: white;
     border:solid 1px #cccccc;
     margin-bottom: 20px;
+    margin-right: 2%;
 
 }
 .changeMargin{
@@ -133,3 +134,10 @@ image{
     margin-right: 15px;
     margin-bottom: 15px;
 }
+.changefooter{
+    height: 60px;
+    text-align: center;
+    background-color: #666;
+    margin-top: 20%;
+}
+
